@@ -14,15 +14,9 @@ public class Student {
 
     private String registerNumber;
 
-    private String department;
+    private String section;
 
     public Student() {
-    }
-
-    public Student(String name, String registerNumber, String department) {
-        this.name = name;
-        this.registerNumber = registerNumber;
-        this.department = department;
     }
 
     public Long getId() {
@@ -49,11 +43,11 @@ public class Student {
         this.registerNumber = registerNumber;
     }
 
-    public String getDepartment() {
-        return department;
+    public String getSection() {
+        return section;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
+    public void setSection(String section) {
+        this.section = section;
     }
 }
